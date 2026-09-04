@@ -6,4 +6,5 @@ ADD --chmod=755 https://downloads.snyk.io/cli/stable/snyk-linux?_gl=1*5o7qwv*_gc
 RUN sudo apt-get update && sudo apt-get install -y --no-install-recommends \
     graphviz \
 	graphviz-dev \
+	git \
     && sudo rm -rf /var/lib/apt/lists/*
